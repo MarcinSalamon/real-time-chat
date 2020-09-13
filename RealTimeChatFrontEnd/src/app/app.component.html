@@ -1,0 +1,7 @@
+<div *ngIf="user === null">
+  <app-username-selection></app-username-selection>
+</div>
+<div *ngIf="user !== null">
+  <app-chatbox></app-chatbox>
+  <app-chat-input></app-chat-input>
+</div>
